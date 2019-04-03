@@ -1,12 +1,12 @@
 import empleados.*
 
-test "sueldo de Baigorria y de Gimenez" {
+test "sueldo de Baigorria y de Galván" {
 	baigorria.venderEmpanada()
 	baigorria.venderEmpanada()
 	assert.equals(1530, baigorria.sueldo())
 	baigorria.venderEmpanada()
 	assert.equals(1545, baigorria.sueldo())
-	assert.equals(15000, gimenez.sueldo())
-	gimenez.sueldo(12000)
-	assert.equals(12000, gimenez.sueldo())
+	assert.equals(15000, galvan.sueldo())
+	galvan.sueldo(12000)
+	assert.equals(12000, galvan.sueldo())
 }
