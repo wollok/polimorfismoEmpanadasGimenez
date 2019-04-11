@@ -39,7 +39,7 @@ method pagarA(empleado) {
 Modificar el comportamiento de Galván para que maneje sus gastos, el dinero que tiene, y su deuda. Cuando Galván gasta, se descuenta de su dinero, si no le alcanza aumenta la deuda. Cuando cobra un sueldo, Galván paga sus deudas. Si sobra algo, se suma al dinero que tiene. Agregar a Galván la capacidad de entender los mensajes: `gastar(cuanto)`, `totalDeuda()`, `totalDinero()`.
 
 Tener en cuenta este escenario
-1. Galván arranca con 15000 de sueldo, deuda en 0, dinero en 0.
+1. Galván arranca con deuda en 0 y dinero en 0. Su sueldo (que aún no cobró) es de 15000.
 1. Galván gasta 4000, `totalDeuda()` debe ser 4000, `totalDinero()` debe ser 0.
 1. Galván gasta otros 8000, `totalDeuda()` pasa a 12000, `totalDinero()` sigue en 0.
 1. Galván cobra, con los 15000 que recibe paga toda su deuda y le sobran 3000 pesos. Por lo tanto, `totalDeuda()` debe ser 0, y `totalDinero()` debe ser 3000.
