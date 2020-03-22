@@ -9,11 +9,11 @@ object galvan {
 }
 
 object baigorria {
-	var cantidadEmpanadasVendidas = 100
+	var cantidadEmpanadasVendidas = 0
 	var montoPorEmpanada = 15
 	
-	method venderEmpanada() {
-		cantidadEmpanadasVendidas += 1
+	method venderEmpanadas(cuantas) {
+		cantidadEmpanadasVendidas += cuantas
 	}
  	
 	method sueldo() = cantidadEmpanadasVendidas * montoPorEmpanada
