@@ -11,11 +11,13 @@
 En "Empanadas Giménez", un modesto local de delivery de empanadas, tenemos dos empleados:
 
 * Galván, el empleado de siempre, que cobra un sueldo fijo. El valor arranca en $ 15.000, y después puede cambiar mes a mes.
-* Baigorria, el joven y explotado empleado de Giménez, que cobra en base a la cantidad de empanadas vendidas (actualmente $ 15 por empanada).
+* Baigorria, el joven y explotado empleado de Giménez, que cobra en base a la cantidad de empanadas vendidas (actualmente $ 15 por empanada). Debe haber una forma de informar que Baigorria vende una cantidad de empanadas.
 
 El dueño, el señor Giménez, es el encargado de pagarle el sueldo a los empleados, y de gestionar el dinero que se utiliza para esto. Asumimos que Giménez arranca con un fondo para sueldos de $ 300.000. Como los sueldos salen de este fondo, hay que descontar el importe correspondiente cuando Giménez le paga a un empleado.
 
 Por ahora no vamos a tener en cuenta qué hace cada empleado al recibir el dinero, el único efecto que nos interesa del pago es que disminuye el fondo de Giménez.
+
+Modelar al dueño y a los dos empleados, de forma tal que se pueda indicar: un cambio de sueldo de Galván, la venta de empanadas por parte de Baigorria, el pago de sueldo de cualquiera de los dos empleados. Y se pueda preguntar: el sueldo de Baigorria, y el importe actual en el fondo de Giménez.
 
 
 <br>
