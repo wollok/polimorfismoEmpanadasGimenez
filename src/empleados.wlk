@@ -15,10 +15,6 @@ object baigorria {
 	method sueldo() = cantidadEmpanadasVendidas * montoPorEmpanada
 }
 
-object gutierrez {
-	method sueldo() = 10000
-}
-
 object gimenez {
 	var dinero = 300000
 
