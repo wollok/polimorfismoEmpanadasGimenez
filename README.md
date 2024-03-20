@@ -21,13 +21,16 @@ Modelar al dueño y a los dos empleados, de forma tal que se pueda indicar: un c
 
 P.ej. si se realizan estas acciones
 
-- registrar la venta de 500 empanadas por parte de Baigorria
-- cambiar el sueldo de Galván a 20000
-- registrar la venta de otras 300 empanadas por parte de Baigorria
+- registrar la venta de 10 empanadas por parte de Baigorria
+- registrar la venta de 20 empanadas por parte de Baigorria
+- el sueldo de Baigorria deberia de ser 450
+- registrar la venta de 10 empanadas por parte de Baigorria
+- el sueldo de Baigorria deberia de ser 600
+- cambiar el sueldo de Galván a 12000
 - que Giménez le pague el sueldo a Baigorria
 - finalmente, que Giménez le pague el sueldo a Galván
 
-Entonces el sueldo de Baigorria es 800, y el fondo de Galván tiene 268000 pesos.
+Entonces el sueldo de Baigorria es 600, y el fondo de Gimenez tiene 287400 pesos.
 
 <br>
 
