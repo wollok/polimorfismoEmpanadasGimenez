@@ -1,6 +1,6 @@
 
  
-[![Build Status](https://travis-ci.org/wollok/polimorfismoEmpanadasGimenez.svg?branch=master)](https://travis-ci.org/wollok/polimorfismoEmpanadasGimenez)
+[![Build Status](https://github.com/wollok/polimorfismoEmpanadasGimenez/actions/workflows/ci.yml/badge.svg)](https://github.com/wollok/polimorfismoEmpanadasGimenez/actions/workflows/ci.yml)
 
 # Empanadas Giménez
 
